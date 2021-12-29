@@ -15,7 +15,7 @@ Make sure you have a database to migrate which is described in .env file and exi
 
 You need to seed database with seeders.
 
-<code> php artisan db:seed </code>
+<code> php artisan db:seed --class=ServiceSeeder </code>
 
 Update the cache driver field in the .env file as follows
 <pre>CACHE_DRIVER=redis</pre>
